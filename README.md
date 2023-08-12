@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/lovedboy/phone.svg?branch=master)](https://travis-ci.org/lovedboy/phone)
-
+原作者https://github.com/ls0f/phone
+我就自己写个接口练手
 ## 手机号码库
 
 #### 安装
