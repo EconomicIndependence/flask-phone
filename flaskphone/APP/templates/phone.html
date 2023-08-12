@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>电话号码表单</title>
+</head>
+<body>
+    <h1>电话号码表单</h1>
+    <form method="POST" action="{{ url_for('user.process_phone') }}">
+        <label for="phone">电话号码：</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
