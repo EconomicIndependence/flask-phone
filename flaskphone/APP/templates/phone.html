@@ -5,11 +5,10 @@
 </head>
 <body>
     <h1>电话号码表单</h1>
-    <form method="POST" action="{{ url_for('user.process_phone') }}">
-        <label for="phone">电话号码：</label>
-        <input type="tel" id="phone" name="phone" required>
-        <br>
-        <input type="submit" value="提交">
+    <form action="/process_phone" method="get">
+        <p><input type="text" name="phone" placeholder="请输入手机号码"></p>
+        <p><input type="submit" value="提交"></p>
     </form>
+
 </body>
 </html>
